@@ -2,7 +2,7 @@
 This is a tool to be used with Contextor in order to restart the application.
 
 It creates a single standalone executable **CtxtRestart.exe** which can be placed alongside **CtxtRun.exe** 
-(normally in C:\Program Files (ex86)\Contextor\Interactive\)
+(normally in C:\Program Files (ex86)\Contextor\Interactive\) or any other location of course.
 
 ### Called without paramters
 ```
@@ -12,7 +12,7 @@ If called without parameters, CtxtRestart.exe tries to kill all running CtxtRun.
 
 ### Called with parameters
 If parameters are passed, it will also first try to kill all running CtxtRun.exe and afterwards start the CtxtRun.exe 
-passing the parameters it received.
+passing the parameters it received. This means it can basically **replace** CtxtRun.exe in links for the users.
 ```
 CtxtRestart -w "%APPDATA%" -z "http://website/myproject"
 ```
