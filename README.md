@@ -2,7 +2,7 @@
 This is a tool to be used with Contextor in order to restart the application.
 
 It creates a single standalone executable **CtxtRestart.exe** which can be placed alongside **CtxtRun.exe** 
-(normally in **C:\Program Files (ex86)\Contextor\Interactive\**)
+(normally in C:\Program Files (ex86)\Contextor\Interactive\)
 
 ### Called without paramters
 ```
@@ -27,3 +27,4 @@ ctx.exec("C:\\Program Files (x86)\\Contextor\\Interactive\\CtxtRestart.exe -w \"
 
 ### Binary downloads
 In case you do not want to compile the sources yourself, you can find the binary withing the githib archive here:
+https://github.com/tobiaswaggoner/CtxtRestart/blob/master/CtxtRestart/Binaries/CtxtRestart%201.0.0.zip
